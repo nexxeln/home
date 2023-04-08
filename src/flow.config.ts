@@ -16,25 +16,25 @@ export const flowConfig: Config = {
       color: "green-",
       links: [
         {
-          name: "Discord",
-          url: "https://discord.com",
+          name: "Reddit",
+          url: "https://reddit.com",
         },
         {
           name: "Twitter",
           url: "https://twitter.com",
         },
         {
-          name: "Instagram",
-          url: "https://instagram.com",
+          name: "hn",
+          url: "https://news.ycombinator.com",
         },
         {
-          name: "Reddit",
-          url: "https://reddit.com",
+          name: "Lobsters",
+          url: "https://lobste.rs",
         },
       ],
     },
     {
-      type: "Work",
+      type: "Tools",
       color: "teal-",
       links: [
         {
@@ -50,8 +50,12 @@ export const flowConfig: Config = {
           url: "https://chat.openai.com",
         },
         {
-          name: "Gmail",
-          url: "https://mail.google.com",
+          name: "Perplexity",
+          url: "https://perplexity.ai"
+        },
+        {
+          name: "Notion",
+          url: "https://notion.so"
         },
       ],
     },
@@ -64,41 +68,39 @@ export const flowConfig: Config = {
           url: "https://youtube.com",
         },
         {
-          name: "Zoro",
-          url: "https://zoro.to",
+          name: "Twitch",
+          url: "https://twitch.tv",
         },
         {
-          name: "Manga",
-          url: "https://mangareader.to",
+          name: "Kick",
+          url: "https://kick.com",
         },
+
       ],
     },
     {
-      type: "Resources",
-      color: "purple-",
+      type: "Dev",
+      color: "blue-",
       links: [
         {
-          name: "Tailwind",
-          url: "https://tailwindcss.com/docs/customizing-colors",
+          name: "Repo",
+          url: "https://repo.new",
         },
         {
-          name: "Icons",
-          url: "https://icones.js.org/",
+          name: "Uno",
+          url: "https://unocss.dev/play",
         },
         {
-          name: "Fontshare",
-          url: "https://fontshare.com/",
+          name: "Typewolf",
+          url: "https://typewolf.com",
         },
+
       ],
     },
     {
       type: "Others",
       color: "rose-",
       links: [
-        {
-          name: "Dev.to",
-          url: "https://dev.to",
-        },
         {
           name: "Monkeytype",
           url: "https://monkeytype.com",
